@@ -11,8 +11,9 @@ public class Main {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
         account account1 = (account) applicationContext.getBean("acount");
 //        System.out.println("" +account1.print());
-        System.out.println("Id: "+account1.getId());
-        System.out.println("Name: "+account1.getName());
-        System.out.println("balance: "+account1.getBalance());
+//        System.out.println("Id: "+account1.getId());
+//        System.out.println("Name: "+account1.getName());
+//        System.out.println("balance: "+account1.getBalance());
+        account1.print();
     }
 }

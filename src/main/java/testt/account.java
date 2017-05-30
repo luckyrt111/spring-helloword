@@ -32,7 +32,7 @@ public class account {
         this.name = name;
     }
 
-//    public void print() {
-//        System.out.println("id "+id +"name "+name+"balance "+balance);
-//    }
+    public void print() {
+        System.out.println("id: "+id +" name: "+name +" balance: "+balance);
+    }
 }
